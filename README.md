@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Muse Compose Manager (Frontend)
+
+Muse is a Docker Compose Manager written with Next.js and python. This repository is for frontend component of the Muse stack.
+
+## What is Muse
+
+Muse is focused on being simple and non-opinionated. The goal is to provide a UI that allows for creation and management of Docker Compose stacks without locking you into anything.
+
+Docker Compose files are kept on the base server. You can edit, add, modify all you want. You can manage your docker compose files however you want. Muse is simply an option to manage docker compose if you don't want to use the command line.
+
+To put it simply(ish?), Muse is an abstraction of the existing Docker Compose workflow, simply providing a pretty face to the basic terminal commands.
+
+## A Fair Warning
+
+__I HAVE NO IDEA WHAT I AM DOING__
+
+I am __not__ a web developer, I am __not__ a computer scientist, I am __not__ a programmer.
+
+I am a plain old mechanical engineer who happens to like messing around with my homelab.
+
+The most formal education I have ever had with web development is basic HTML and CSS, and even that was pre HTML 5. I have experience in Java, but I have very little knowledge of JavaScript, let alone any frameworks or anything.
+
+This project got started by me following along with Next.js tutorials on YouTube.
+
+If you ever see something and wonder, "Boy, that's stupid, why would you do that?", the answer is that I have no idea what I am doing. I am meerly a chimpanzee with a hammer and some ideas.
+
+Please be patient with me. Any and all feedback is appreciated. Again: __I HAVE NO IDEA WHAT I AM DOING__
 
 ## Getting Started
 
-First, run the development server:
+First, make sure you have next installed:
+
+```bash
+npm install next
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
