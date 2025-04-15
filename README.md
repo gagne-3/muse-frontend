@@ -1,3 +1,6 @@
+> [!CAUTION]
+> This project is in the very, very early stages of development. Very little has been done, and I am not sure it will work out. Proceed with this in mind, this project is nowhere near functional.
+
 # Muse Compose Manager (Frontend)
 
 Muse is a Docker Compose Manager written with Next.js and python. This repository is the frontend component of the Muse stack.
